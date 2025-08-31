@@ -48,8 +48,8 @@ public class Main {
                 case 2:
                     System.out.println("\n-- Información del cajero --\n");
                     cajero.infoSaldo();
-
                     break;
+
                 default:
                     System.out.println("Opción no válida, intenta nuevamente.");
             }

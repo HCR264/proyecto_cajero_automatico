@@ -26,6 +26,6 @@ public class Billete {
 
     @Override
     public String toString() {
-        return String.format("Billete de %s: %d", this.denominacion, this.cantidad);
+        return String.format("Denominación %s. Cantidad: %d", this.denominacion, this.cantidad);
     }
 }
